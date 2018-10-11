@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>产品详情页</title>
+		
+		<title>{$vic_content.title} - {VIC:config name="site_name"}</title>
+		<meta name="keywords" content="{$vic_column.keyword}" />
+		<meta name="description" content="{$vic_column.description}" />
+		<meta name="author" content="深圳威创盛世网络科技有限公司——高端品牌网站定制开发 http://www.weichuangweb.com">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/animate.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel=" stylesheet" href="css/response.css"/>
+	</head>
+	<body>
+		<header class="vic-header">
+			<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       						<span class="sr-only"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+       				 		<span class="icon-bar"></span>
+      					</button>
+						<div class="navbar-brand" href="index.html">
+							<div class="logo">
+								<a href="index.html"><img src="img/logo.png" /></a>
+							</div>
+							<div class="vic-search">
+								<img id="vic-fadeIn" src="img/shear.png">
+							</div>
+							<div class="vic-language">
+							<a href="#">EN</a>	
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html">首页</a>
+							</li>
+							<li  class="vic-indexPage">
+								<a href="product.html">产品与服务</a>
+							</li>
+							<li>
+								<a href="case.html">应用方案</a>
+							</li>
+							<li>
+								<a href="partner.html">合作伙伴</a>
+							</li>
+							<li>
+								<a href="newscenter.html">蜜连动态</a>
+							</li>
+							<li>
+								<a href="aboutus.html">关于我们</a>
+							</li>
+							<li>
+								<a href="#">云平台入口</a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="vic-input">
+						<div class="vic-close pull-right">
+						<span id="vic-fadeOut" class="pull-right glyphicon glyphicon-remove"></span>
+					</div>
+						
+						<div class="combination">
+						<input type="text" placeholder="搜索" />
+						<img src="img/shear.png" />
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					
+				</nav>
+				
+		<!-- 导航 -->
+				<div class="vic-nav center-block">
+					<p class="vic-chose pull-right">
+						<a href="#" class="vic-chosing">中文/</a>
+						<a href="#">英文</a>
+					</p>
+					<div class="logoChange">
+						<a href="index.html"><img src="img/logo.png" /></a>
+						</div>
+					<ul class="vic-navList">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li  class="vic-indexPage">
+							<a href="product.html">产品与服务</a>
+						</li>
+						<li>
+							<a href="case.html">应用方案</a>
+						</li>
+						<li>
+							<a href="partner.html">合作伙伴</a>
+						</li>
+						<li>
+							<a href="newscenter.html">蜜连动态</a>
+						</li>
+						<li>
+							<a href="aboutus.html">关于我们</a>
+						</li>
+						<li class="search">
+							<input type="text" />
+							<img class="seaImg" src="img/shear.png" />
+						</li>
+					</ul>
+					<div class="vic-entrance">
+					<a href="#">云平台入口</a>
+					</div>
+				</div>
+			<div class="clearfix"></div>
+		</header>
+		
+		<div class="vic-productBanner">
+			
+				
+			<!--<div class="vic-dtu">
+				<img src="img/pc22.png"/>
+			</div>
+			
+			<div class="vic-people">
+				<img src="img/pcp.png"/>
+			</div>
+			
+			<div class="vic-phone">
+				<img src="img/pc11.png"/>
+			</div>
+			
+			<div class="vic-pcText">
+				<img src="img/pc8.png"/>
+			</div>
+			
+			<div class="vic-pcCont">
+				<img src="img/pc9.png"/>
+			</div>
+			
+			<div class="vic-pcstart">
+				<img src="img/pc1.png"/>
+			</div>
+			
+			<div class="vic-pcloud">
+				<img class="vic-colTan" src="img/pc2.png"/>
+			</div>
+			
+			<div class="vic-pcMorecold">
+				<img src="img/pc3.png"/>
+			</div>
+			
+			<div class="vic-pcBorder">
+				<img src="img/pc5.png"/>
+			</div>
+			
+			<div class="vic-pcTubiao">
+				<img src="img/pc4.png"/>
+			</div>-->
+			<div class="bannerBox">
+				<div class="yuandianShansuo">
+					<img src="img/pc1.png" />
+				</div>
+				<div class="cydText">
+					<p>
+						<span>物联网管理平台</span>
+						<span>智能硬件</span>
+					</p>
+					<b>一步到位</b>
+				</div>
+				<div class="cydLineOne">
+					<img src="img/线1.png" />
+				</div>
+				<div class="cydZixingche">
+					<a href="">
+						<img src="img/单车.png" />
+					</a>
+				</div>
+				<div class="cydXiaomiPhone">
+					<a href="">
+						<img src="img/手机1.png" />
+					</a>
+				</div>
+				<!-- 线 -->
+				<div class="cydLineTwo">
+					<img src="img/线009.png" />
+				</div>
+				<div class="cydLineThree">
+					<img src="img/线04.png" />
+				</div>
+				<div class="cydLineFour">
+					<img src="img/线03.png" />
+				</div>
+				<div class="cydLineFive">
+					<img src="img/线02.png" />
+				</div>
+				<div class="cydLineSix">
+					<img src="img/线01.png" />
+				</div>
+				<!-- 圆形图 -->
+				<div class="cydTubiaoOne cydSamefanzhuang">
+					<a href="">
+						<img src="img/图标1.png" />
+					</a>
+				</div>
+				<div class="cydTubiaoTwo cydSamefanzhuang">
+					<a href="">
+						<img src="img/图标2.png" />
+					</a>
+				</div>
+				<div class="cydTubiaoThree cydSamefanzhuang">
+					<a href="">
+						<img src="img/图标3.png" />
+					</a>
+				</div>
+				<div class="cydTubiaoFour cydSamefanzhuang">
+					<a href="">
+						<img src="img/图标4.png" />
+					</a>
+				</div>
+				<div class="cydTubiaoFive cydSamefanzhuang">
+					<a href="">
+						<img src="img/图标5.png" />
+					</a>
+				</div>
+				<!--右边的-->
+				<div class="cydDiannao cydSame">
+					<a class="cydDiannaoErzi">
+						<img src="img/6.png" />
+						<span>客户端管理</span>
+					</a>
+				</div>
+				<div class="cydYunduoOne cydSame">
+					<a class="cydYunduoOneErzi">
+						<img src="img/云左二.png" />
+						<span>SaaS</span>
+					</a>
+				</div>
+				<div class="cydYunduoTwo cydSame">
+					<a class="cydYunduoTwoErzi">
+						<img src="img/云4.png" />
+						<span>SaaS</span>
+					</a>
+				</div>
+				<div class="cydYunduoThree cydSame">
+					<a class="cydYunduoThreeErzi">
+						<img src="img/云左一.png" />
+						<span>SaaS</span>
+					</a>
+				</div>
+				<!--黄色线-->
+				<div class="cydChuxianOne">
+					<img src="img/线33333.png" />
+				</div>
+				<div class="cydAnniu">
+					<a href="">嵌入式DTU</a>
+				</div>
+				<div class="cydGunzi">
+					<img src="img/棍子1.png" />
+				</div>
+				<!--紫色小圆-->
+				<div class="cydZiseOne cydSamefanzhuang">
+					<a href="">
+						<img src="img/字1.png" />
+					</a>
+				</div>
+				<div class="cydZiseTwo cydSamefanzhuang">
+					<a href="">
+						<img src="img/字2.png" />
+					</a>
+				</div>
+				<div class="cydZiseThree cydSamefanzhuang">
+					<a href="">
+						<img src="img/字3.png" />
+					</a>
+				</div>
+				<!---->
+				<div class="cydXianbb">
+					<img src="img/3333.png" />
+				</div>
+				<!--云朵再现-->
+				<div class="cydYunduoFour cydSame">
+					<a class="cydYunduoFourErzi">
+						<img src="img/云5.png" />
+						<span>PaaS<br />客户自建</span>
+					</a>
+				</div>
+				<div class="cydYunduoFive cydSame">
+					<a class="cydYunduoFiveErzi">
+						<img src="img/云1.png" />
+						<img class="cydNongwo" src="img/baisemi.png" />
+					</a>
+				</div>
+			</div>
+			
+			
+			<div class="vic-tabs">
+				<div class="container">
+					<!-- 导航区 -->
+					<ul class="nav nav-tabs vic-tabList">
+					  <li class="active">
+					  	<a href="#home" data-toggle="tab">
+					  		<div class="vic-content">
+					  		<img class="vic-wareImg" src="img/yj.png" alt="硬件" />	
+					  		<div class="vic-hardware">
+					  		<h4>硬件</h4>	
+					  		<p>物联网智能硬件</p>
+					  		</div>
+					  		<div class="clearfix"></div>
+					  		</div>
+					  	</a>
+					  </li>
+					  <li>
+					  	<a href="#profile" data-toggle="tab">
+					  		<div class="vic-content">
+					  		<img class="vic-wareImg" src="img/pt.png" alt="硬件" />	
+					  		<div class="vic-hardware">
+					  		<h4>平台</h4>	
+					  		<p>物联网管理平台</p>
+					  		</div>
+					  		<div class="clearfix"></div>
+					  		</div>
+					  	</a>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="vic-detailsCenter">
+			<div class="container">
+				<div class="vic-details">
+					<h4>安卓智能主板</h4>
+					<span class="data">2018-04-12:02:01:50  &nbsp;&nbsp;&nbsp;&nbsp;浏览：2147次</span>
+					<div class="vic-text">
+						<p>小蜜智联成立于2017年，依托集团对前沿科技的触角，发展以物联网大数据及人工智能为方向的解决方案；目前主要产品有香氛机智能控制解决方案；</p>
+						<img class="img-responsive" src="img/i.png" />
+						<p>小蜜智联成立于2017年，依托集团对前沿科技的触角，发展以物联网大数据及人工智能为方向的解决方案；目前主要产品有香氛机智能控制解决方案；</p>
+					</div>
+					
+					<div class="page">
+						<a href="#" class="left">
+							<img src="img/left.png">
+							
+							<span>上一个：没有了</span>
+						</a>
+						<a href="product.html" class="vic-back">返回列表</a>
+						<a href="#" class="right">
+							<span>下一个：没有了</span>
+						
+							<img src="img/right.png">
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			</div>
+		</div>
+		
+	<footer class="foot">
+			<div class="container">
+				<div class="col-sm-12">
+					<div class="col-md-3 col-sm-3 col-xs-12 vic-infoNumber">
+						<p class="vic-place">
+							<img src="img/place.png">
+							<span>深圳市南山区科技园南区飞亚达科技大厦东座1502室</span>
+							<div class="clearfix"></div>
+						</p>
+
+						<p class="vic-fax">
+							<img src="img/cz.png">
+							<span>86-755-123456789</span>
+						</p>
+
+						<p class="vic-fax">
+							<img src="img/df.png">
+							<span>86-755-123456789</span>
+						</p>
+					</div>
+
+					<div class="col-md-2 col-sm-3 col-xs-6 vic-serPass">
+						<p class="vic-serInfo">
+							<h4>产品与服务</h4>
+							<p>
+								<a href="product.html">物联网智能硬件</a>
+							</p>
+							<p>
+								<a href="product.html">物联网智能平台</a>
+							</p>
+						</p>
+					</div>
+
+					<div class="col-md-2 col-sm-2 col-xs-6 vic-service">
+						<p class="vic-serInfo">
+							<h4>应用方案</h4>
+							<p>
+								<a href="caseInform.html">共享车锁</a>
+							</p>
+							<p>
+								<a href="caseInform.html">共享纸币机</a>
+							</p>
+							<p>
+								<a href="caseInform.html">共享按摩椅</a>
+							</p>
+							<p>
+								<a href="caseInform.html">酒店香氛管理</a>
+							</p>
+						</p>
+					</div>
+
+					<div class="col-md-2 col-sm-2 col-xs-6 vic-service vic-dong">
+						<p class="vic-serInfo">
+							<h4>小蜜动态</h4>
+							<p>
+								<a href="newscenter.html">小蜜动态</a>
+							</p>
+							<p>
+								<a href="newscenter.html">行业动态</a>
+							</p>
+						</p>
+					</div>
+
+					<div class="col-md-2 col-sm-2 col-xs-6 vic-service vic-dong">
+						<p class="vic-serInfo">
+							<h4>关于我们</h4>
+							<p>
+								<a href="aboutus.html">小蜜使命</a>
+							</p>
+							<p>
+								<a href="aboutus.html">团队介绍</a>
+							</p>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<p class="vic-copy">版权所有 ©2012-2018 小蜜科技有限公司 保留一切权利</p>
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/style.js"></script>
+	</body>
+</html>

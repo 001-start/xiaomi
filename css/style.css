@@ -1,0 +1,414 @@
+body{overflow-x: hidden;padding: 0 !important;}
+
+body,html,a,p,span,div,h1,h2,h3,h4,h5,h6,font,li,em,i{font-family:"微软雅黑" ;}
+body,html,a,p,span,font,li,em,i{font-size: 14px;}
+/*****cyd修改*****/
+#starsBox{width: 100%;height: 770px;position: absolute;top: 0;left: 0;right: 0;bottom: 0;}
+#starsBox span{position: absolute;display: inline-block;transition: 100s linear;}
+
+.container {padding-right: 0;padding-left: 0;margin-right: auto;margin-left: auto;}
+ @media (min-width: 1200px){
+.container {
+    	width: 1200px;
+	}
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, 
+.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, 
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+.col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 
+{
+    position: relative;
+    min-height: 1px;
+     padding-right:0; 
+     padding-left: 0; 
+}
+
+/* 顶部导航  */
+.logoChange{width:190px;float: left;height:65px;background-color: white;line-height: 65px;text-align: center;border-top-left-radius: 30px;border-bottom-left-radius: 30px;}
+.logoChange a img{width:80%;}
+.vic-nav{width:1200px;background-color:white;height: 65px;border-radius: 30px;position: fixed;z-index: 999;top: 0;margin-top: 60px;left: 0;right: 0;text-align: center;transition: all 1s ease-in-out;}
+.vic-navList{list-style-type: none;background-color:white;height: 65px;padding-left: 0;display: inline-block;}
+.vic-navList li{display: block;float: left;padding:0 17px;height:50px;line-height: 60px;}
+.vic-navList li a{font-size:16px;color:black;text-decoration: none;display: block;height: 50px;}
+.vic-navList li a:hover{color:#eaa430;text-decoration: none;}
+.vic-navList li a:hover{border-bottom:2px solid #EAA430;}
+.vic-navList li input{height: 35px;width: 200px;text-align: center;background-color:#f1f1f1;border: 0;outline:none;border-radius:30px;}
+.search{border:0 !important;}
+.search img{position: absolute;top: 22px;margin-left: 60px;}
+
+.vic-chose{margin-top:-30px;margin-right:40px;}
+.vic-chose a{color: white;text-decoration: none;}
+.vic-chose a:hover{color: white;text-decoration: none;}
+.vic-chose .vic-chosing{color:#eaa430;}
+.vic-chose .vic-chosing:hover{color:#eaa430;}
+.vic-entrance{width:190px;height: 65px;float: right;line-height: 65px;text-align: center;background-color: #E38D13;border-top-right-radius: 30px;border-bottom-right-radius: 30px;}
+.vic-entrance a{font-size: 16px;color: white;text-decoration: none;}
+.vic-entrance a:hover{color: white;text-decoration: none;}
+
+.vic-indexPage a{border-bottom:2px solid #EAA430;}
+.vic-indexPage a{color:#eaa430 !important;text-decoration: none;}
+.navbar-default{display: none !important;}
+.clearfix{clear: both;}
+
+
+/* 产品与服务 */
+.vic-productBanner{width: 100%;background-image: url(../img/pcbg.jpg);background-size:cover;background-position: center center;background-repeat: no-repeat;height:947px;position: relative;}
+.vic-newbg{width:100%;}
+.vic-tabs{width: 100%;background-image: url(../img/probg2.jpg);background-size:cover;background-repeat: no-repeat;position:absolute;bottom: 0;}
+.vic-tabList{width: 100%;}
+.nav-tabs{border:0;}
+.vic-tabList li{width:50%;margin-bottom: -3px;}
+.vic-tabList>li>a {margin-right: 0;border-radius:0;color: white;padding: 0;}
+.vic-tabList>li.active>a, .vic-tabList>li.active>a:focus, .vic-tabList>li.active>a:hover {color: white;cursor: default;border: 0;background-color: rgba(66,64,64,0.3);border-bottom-color: transparent;}
+.vic-tabList>li>a:hover {border-color:transparent;background-color: transparent;color: white;}
+.vic-content{margin: auto;padding-left: 40%;padding-top: 10px;padding-bottom: 5px;}
+.vic-wareImg{float: left;}
+.vic-hardware{float: left;margin-left: 15px;}
+.vic-hardware h4{font-size: 20px;}
+.vic-hardware p{font-size: 16px;}
+.vic-tabsCont{background-image: url(../img/tabbg.jpg);background-size:cover;background-repeat: no-repeat;}
+.vic-classification{width: 100%;margin-bottom:20px;}
+.vic-category{box-sizing: border-box;line-height:240px;border:1px solid #4053c6;text-align: center;width:27.5%;height: 240px;float:left;margin-bottom: 40px;background-color: #151a64;}
+.vic-proShow .vic-centerCate{margin-left:8.4%;margin-right:8.4%;}
+/*****cyd修改*****/
+.vic-productBanner {padding-top: 196px;}
+.vic-productBanner .bannerBox img{display: block;max-width: 100%;transition: all 0.8s;}
+.vic-productBanner .bannerBox {width: 1200px;height: 540px;position: relative;margin: 0 auto;overflow: hidden;}
+.vic-productBanner .bannerBox .yuandianShansuo{animation:vicBling 2000ms infinite;-webkit-animation:vicBling 2000ms infinite;position: absolute;left: 60px;top: 0;}
+.vic-productBanner .bannerBox .cydText{display: inline-block;position: absolute;left: -18px;top: 40px;animation: fadeIn 2s 2.6s both;}
+.vic-productBanner .bannerBox .cydText p{overflow: hidden;}
+.vic-productBanner .bannerBox .cydText p span{display: block;padding: 3px 18px;border-right: 3px solid #fff;font-size: 28px;color: #fff;line-height: 28px;float: left;}
+.vic-productBanner .bannerBox .cydText p span:last-child{border-right: none;}
+.vic-productBanner .bannerBox .cydText b{display: inline-block;font-size: 40px;padding-left: 18px;color: #fff;line-height: 56px;}
+.vic-productBanner .bannerBox .cydLineOne{position: absolute;left: 100px;top: 172px;animation: fadeIn 1s 2.5s both;}
+.vic-productBanner .bannerBox .cydZixingche{position: absolute;left: 0;top: 229px;animation: flipInY 1s 2.3s both;}
+.vic-productBanner .bannerBox .cydZixingche img:hover{transform: rotateX(45deg);}
+.vic-productBanner .bannerBox .cydXiaomiPhone{position: absolute;left: 262px;top: 176px;animation: flipInY 1s 2.4s both;}
+.vic-productBanner .bannerBox .cydXiaomiPhone img:hover{transform: scale(1.05);}
+.vic-productBanner .bannerBox .cydLineTwo{position: absolute;left: 58px;bottom: 10px;animation: fadeIn 1s 2.2s both;}
+.vic-productBanner .bannerBox .cydLineThree{position: absolute;left: 162px;bottom: 22px;animation: fadeIn 1s 1.9s both;}
+.vic-productBanner .bannerBox .cydLineFour{position: absolute;left: 266px;bottom: 34px;animation: fadeIn 1s 1.7s both;}
+.vic-productBanner .bannerBox .cydLineFive{position: absolute;left: 370px;bottom: 46px;animation: fadeIn 1s 1.5s both;}
+.vic-productBanner .bannerBox .cydLineSix{position: absolute;left: 474px;bottom: 58px;animation: fadeIn 1s 1.3s both;}
+.vic-productBanner .bannerBox .cydTubiaoOne{position: absolute;left: 21px;bottom: 77px;animation: flipInY 1s 2.1s both;}
+.vic-productBanner .bannerBox .cydTubiaoTwo{position: absolute;left: 125px;bottom: 77px;animation: flipInY 1s 2s both;}
+.vic-productBanner .bannerBox .cydTubiaoThree{position: absolute;left: 229px;bottom: 77px;animation: flipInY 1s 1.8s both;}
+.vic-productBanner .bannerBox .cydTubiaoFour{position: absolute;left: 333px;bottom: 77px;animation: flipInY 1s 1.6s both;}
+.vic-productBanner .bannerBox .cydTubiaoFive{position: absolute;left: 437px;bottom: 77px;animation: flipInY 1s 1.4s both;}
+.vic-productBanner .bannerBox .cydDiannao{position: absolute;top: 32px;right: 28px;z-index: 99;animation: fadeIn 1s 0.6s both;}
+.vic-productBanner .bannerBox .cydDiannao .cydDiannaoErzi{position: relative;width: 127px;height: 118px;}
+.vic-productBanner .bannerBox .cydSame {z-index: 666;}
+.vic-productBanner .bannerBox .cydSame span{color: #A492C7;position: absolute;display: block;width: 100%;text-align: center;}
+.vic-productBanner .bannerBox .cydSame a{display: block;text-decoration: none;cursor: pointer;}
+.vic-productBanner .bannerBox .cydDiannao .cydDiannaoErzi span{top: 24px;font-size: 16px;}
+.vic-productBanner .bannerBox .cydYunduoOne{position: absolute;top: 10px;right: 191px;animation: bounceIn 1s 0.2s both;}
+.vic-productBanner .bannerBox .cydYunduoOne .cydYunduoOneErzi{position: relative;width: 196px;height: 129px;}
+.vic-productBanner .bannerBox .cydYunduoOne .cydYunduoOneErzi span{top: 58px;font-size: 28px;line-height: 36px;}
+.vic-productBanner .bannerBox .cydYunduoTwo{position: absolute;top: 145px;right: 84px;animation: bounceIn 1s 0.3s both;}
+.vic-productBanner .bannerBox .cydYunduoTwo .cydYunduoTwoErzi{position: relative;width: 184px;height: 122px;}
+.vic-productBanner .bannerBox .cydYunduoTwo .cydYunduoTwoErzi span{top: 54px;font-size: 28px;line-height: 36px;}
+.vic-productBanner .bannerBox .cydYunduoThree{position: absolute;top: 53px;right: 418px;animation: bounceIn 1s 0.1s both;}
+.vic-productBanner .bannerBox .cydYunduoThree .cydYunduoThreeErzi{position: relative;width: 235px;height: 155px;}
+.vic-productBanner .bannerBox .cydYunduoThree .cydYunduoThreeErzi span{top: 60px;font-size: 28px;line-height: 36px;}
+.vic-productBanner .bannerBox .cydChuxianOne{position: absolute;top: 68px;right: 0;z-index: 10;animation: fadeIn 1s 0.5s both;}
+.vic-productBanner .bannerBox .cydAnniu{position: absolute;right: 298px;bottom: 0;animation: fadeIn 1s 1.2s both;}
+.vic-productBanner .bannerBox .cydAnniu a{display: block;width: 210px;line-height: 72px;border-radius: 10px;background: #EC355B;text-align: center;color: #FAA916;font-size: 24px;font-weight: bold;text-decoration: none;}
+.vic-productBanner .bannerBox .cydGunzi{position: absolute;right: 360px;bottom: 72px;animation: fadeIn 1s 0.8s both;}
+.vic-productBanner .bannerBox .cydZiseOne{position: absolute;right: 456px;bottom: 98px;animation: rotateIn 1s 0.9s both;}
+.vic-productBanner .bannerBox .cydZiseTwo{position: absolute;right: 397px;bottom: 98px;animation: rotateIn 1s 1s both;}
+.vic-productBanner .bannerBox .cydZiseThree{position: absolute;right: 341px;bottom: 98px;animation: rotateIn 1s 1.1s both;}
+.vic-productBanner .bannerBox .cydXianbb{position: absolute;right: 134px;bottom: 84px;animation: fadeIn 1s 0.7s both;}
+.vic-productBanner .bannerBox .cydYunduoFour{position: absolute;bottom: 46px;right: 0;animation: bounceIn 1s 0.4s both;}
+.vic-productBanner .bannerBox .cydYunduoFour .cydYunduoFourErzi{position: relative;width: 185px;height: 123px;}
+.vic-productBanner .bannerBox .cydYunduoFour .cydYunduoFourErzi span{top: 46px;font-size: 24px;line-height: 28px;}
+.vic-productBanner .bannerBox .cydYunduoFive{position: absolute;bottom: 165px;right: 210px;animation: bounceIn 1s both;}
+.vic-productBanner .bannerBox .cydYunduoFive .cydYunduoFiveErzi{position: relative;width: 340px;border-top-left-radius: 60px;}
+.vic-productBanner .bannerBox .cydYunduoFive .cydYunduoFiveErzi img.cydNongwo{top: 72px;position: absolute;left: 50%;margin-left: -60px;width: 120px;}
+.vic-productBanner .bannerBox .cydSamefanzhuang img:hover{transform: rotateY(180deg);}
+.vic-productBanner .bannerBox .cydSame a:hover img{transform: scale(1.08);}
+
+/* 底部通用 */
+.foot{background-color:#230050;padding-top: 30px;color:white;font-size: 14px;}
+.foot .container{padding-bottom: 50px;border-bottom:1px solid #1a2f48;}
+.vic-infoNumber{padding-right: 30px;}
+.vic-place{width: 100%;}
+.vic-fax{width: 100%;margin-bottom: 20px;}
+.vic-place img{float: left;margin-right:5px;}
+.vic-place span{display: block;}
+.vic-service{padding-left:5%;border-left:1px solid #1a2f48;height: 147px;}
+.vic-dong{padding-left: 5.5%;}
+.vic-serInfo{width: 100%;}
+.vic-service h4 ,.vic-serPass h4{font-size: 16px;margin-top: -10px;}
+.vic-serPass{padding-left:4.5%;border-left:1px solid #1a2f48;height: 147px;}
+.vic-service p a ,.vic-serPass p a ,.vic-place, .vic-fax{color:#646488;text-decoration: none;}
+.vic-copy{width: 100%;background-color:#230050;padding-bottom: 20px;padding-top:10px;text-align: center;color:#646488;margin-bottom: 0;}
+
+
+/* 产品详情 */
+.vic-detailCenter{background-color: #ebeef3;}
+.vic-details{padding-top: 40px;padding-bottom:60px;}
+.vic-details h4{font-size: 22px;text-align: center;}
+.vic-details .data{display: block;font-size: 14px;text-align: center;color: #bcbec0;}
+.vic-details .vic-text p{margin-top: 20px;margin-bottom: 20px;}
+.vic-text{margin-top: 45px;color: #666666;padding-bottom: 30px;border-bottom:1px solid #666666;}
+.page{text-align: center;margin-top: 45px;}
+.left{text-decoration: none !important;color: #666666 !important;float: left;}
+.left:hover{text-decoration: none;color: #666666;}
+.vic-back{padding: 2px 15px;border:1px solid #666666;border-radius:10px;color: #666666 !important;text-decoration:none !important;}
+.vic-back:hover{color: #666666;text-decoration:none;}
+.right{text-decoration: none !important;color: #666666 !important;float:right;}
+.right:hover{text-decoration: none;color: #666666;}
+
+
+/* 新闻中心  */
+.vic-newsCenter{background-image: url(../img/cntbg.jpg);background-size:cover;background-repeat: no-repeat;padding-top: 40px;padding-bottom: 30px;}
+.vic-newsCenter .vic-newspaper{color:white;box-sizing: border-box;text-align: center;width:33.3%;height:480px;float:left;padding:30px 30px 40px 30px;}
+.vic-newsCenter .vic-newspaper img{width:100%;border-radius:5px;}
+.vic-newsCenter .vic-newspaper h4{text-align: center;line-height:22px;font-size: 18px;margin-top: 20px;margin-bottom: 20px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:1;overflow: hidden;}
+.vic-newsCenter .vic-newspaper p{text-align:left;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 4;overflow: hidden;margin-bottom: 30px;}
+.vic-newsCenter .vic-newspaper .vic-more{padding: 10px 30px;color: white;border:1px solid #E38D13;border-radius: 20px;text-decoration: none;}
+.vic-newsCenter .vic-newspaper:hover{color:black;background-color:white;border-radius:5px;}
+.vic-newsCenter .vic-newspaper:hover .vic-more{color: black !important;}
+.vic-newsCenter .page{text-align: center;}
+.vic-newsCenter .page a{font-size: 16px;color: white;margin-left:5px;margin-right: 5px;}
+.vic-newsCenter .page a:hover{color: #E38D13;}
+
+
+/* 关于我们 */
+
+/* 顶部动画 */
+.vic-blingImg{width: 100%;}
+.vic-abanner{background-image: url(../img/abpop.jpg);background-size: cover;background-repeat: no-repeat;text-align: center;padding: 10px 0 10px 0;height: 700px;}
+.vic-start{position:relative}
+.vic-blingImg{
+    animation:fade 2000ms infinite;
+    -webkit-animation:fade 2000ms infinite;
+}
+
+
+
+ 
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+
+.vic-blsing{position: absolute;z-index: 9;text-align: center;left: 50%;top: 50%;margin-top: -210px;margin-left: -402.5px;}
+.vic-blsing img{width: 95%;}
+
+
+
+
+
+
+
+
+
+.vic-aboutCenter{background-image: url(../img/cntbg.jpg);background-size:cover;background-repeat: no-repeat;padding-top: 60px;padding-bottom: 60px;}
+.vic-life{margin-bottom: 20px;}
+.vic-have{text-align: center;border-right:1px solid white;}
+.vic-introduction{width: 100%;margin-top: 60px;color: white;}
+.vic-introduction p{margin-bottom: 20px;}
+.vic-team{width: 100%;margin-top: 50px;}
+.vic-teamImg{width: 100%;}
+.vic-teamText{width:35%;position: absolute;top:0;right: 0;margin-top:560px;margin-right: 60px;color: white;}
+.vic-teamText .vic-life{margin-bottom:60px;width: 100%}
+.vic-peopel{display: none;width: 100%;}
+.vic-number{position: absolute;top:30px;left:45px;font-size: 80px;color: #E38D13;}
+.vic-bulid{position: absolute;margin-top: -20px;margin-left: 115px;font-size: 16px;color: white;}
+.vic-numberTow{position: absolute;top:30px;left:60px;font-size: 80px;color: #E38D13;}
+.vic-city{position: absolute;top:24px;right: 30px;font-size: 80px;color: #E38D13;}
+.vic-numberlast{position: absolute;top:30px;left:70px;font-size: 80px;color: #E38D13;}
+.vic-earth{position: absolute;top:24px;right: 70px;font-size: 80px;color: #E38D13;}
+
+
+/* 合作伙伴 */
+.vic-partnerCenter{background-color: #ebeef3;padding-top: 50px;padding-bottom: 60px;}
+.vic-group{box-sizing: border-box;padding:6px;overflow: hidden;}
+.vic-group img{width: 100%;}
+.vic-group img:hover{ box-shadow: 5px 5px 5px #ADADAD;}
+
+
+/* 案例中心  */
+.vic-caseCenter{background-image: url(../img/casebg2.jpg);background-size: cover;background-repeat: no-repeat;}
+.vic-caseCenter .container h4{font-size: 24px;}
+.vic-caseCenter .container{color: white;text-align: center;padding-top: 40px;padding-bottom: 120px;}
+.vic-caseList{margin-top:80px;}
+.vic-case{background-color: rgba(17,51,112,0.4);width:12%;height:380px;box-sizing: border-box;float: left;padding:40px 15px 0 15px;margin: 2px;}
+.vic-title{height:100px;padding-top: 30px;}
+.vic-title p{font-size: 18px;}
+.vic-caseBord{margin-top: 0;width:15px;border-color: #E38D13;}
+.cloud-product-single-bottom a{padding:5px 2px;border:1px solid white;display: block;margin-top: 10px;color: white;text-decoration: none;width:80px;}
+.active-inner-item .vic-title{height:auto;}
+.active-inner-item a{padding:5px 2px;border:1px solid white;display: block;margin-top: 20px;color: white;text-decoration: none;width:80px;}
+.active-inner-item .vic-nei{font-size: 14px;color: white;margin-top: 10px;text-align: center;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;overflow: hidden;}
+.active-inner-item img{width: 90%;}
+.vic-smallList{display: none;}
+.vic-caseList{display:block;}
+.vic-text h3{font-size:20px;color:black;}
+
+
+/* 产品 动画  */
+.shovic{transition: 1.5s;}
+.shovic:hover{
+transform:rotateY(360deg);
+-moz-transform:rotateY(360deg); /* Firefox 4 */
+-webkit-transform:rotateY(360deg); /* Safari and Chrome */
+-o-transform:rotateY(360deg); /* Opera */
+}
+
+
+/* 首页 */
+.vic-indexBanner{width: 100%;background-image: url(../img/bgsy.jpg);background-size:cover;background-position: center center;position: relative;}
+
+
+.vic-indrxTabs{background-image: url(../img/ind4.jpg);background-size: cover;background-repeat: no-repeat;padding-top:50px;padding-bottom:50px;}
+
+
+/* 零门槛 */
+.vic-indexSer a{display:block;width:288px;height: 130px;background-image: url(../img/menkan3.jpg);background-size: cover;border-radius:0 !important;box-sizing: border-box;}
+.vic-indexSer.active>a, .vic-indexSer.active>a:focus, .vic-indexSer.active>a:hover{background-image: url(../img/menkan2.jpg);background-size: cover;border:0;}
+.vic-indexSer{padding: 5px;}
+.tab-content{margin-top:50px;}
+.option>li.active>a, .option>li.active>a:focus, .option>li.active>a:hover{border:0;background-color:transparent;}
+.option>li>a{border:0;margin-right:1px;padding:10px 15px;background-color: transparent;}
+.vic-indexSer a img{height: 100%;}
+.vic-indexSer a span{margin-left: 30px;font-size: 24px;color: white;}
+
+
+/* 零风险 */
+.vic-risk a{display:block;width:288px;height: 130px;background-image: url(../img/fengxian3.jpg);background-size: cover;border-radius:0 !important;box-sizing: border-box;}
+.vic-risk.active>a, .vic-risk.active>a:focus, .vic-risk.active>a:hover{background-image: url(../img/fengxian2.png);background-size: cover;border:0;}
+.vic-risk{padding: 5px;}
+.vic-risk a img{height: 100%;}
+.vic-risk a span{margin-left: 30px;font-size: 24px;color: white;}
+.vic-risk.active>a:hover{background-image: url(../img/fengxian2.png);background-size: cover;border:0;}
+
+
+/* 快速升级 */
+.vic-upgrade a{display:block;width:288px;height: 130px;background-image: url(../img/sj3.jpg);background-size: cover;border-radius:0 !important;box-sizing: border-box;}
+.vic-upgrade.active>a, .vic-upgrade.active>a:focus, .vic-upgrade.active>a:hover{background-image: url(../img/sj2.jpg);background-size: cover;border:0;}
+.vic-upgrade{padding: 5px;}
+.vic-upgrade a img{height: 100%;}
+.vic-upgrade a span{margin-left: 10px;font-size: 24px;color: white;}
+
+
+/* 保姆式服务*/
+.vic-nanny a{display:block;width:288px;height: 130px;background-image: url(../img/baomu.jpg);background-size: cover;border-radius:0 !important;box-sizing: border-box;}
+.vic-nanny.active>a, .vic-nanny.active>a:focus, .vic-nanny.active>a:hover{background-image: url(../img/baomu3.jpg);background-size: cover;border:0;}
+.vic-nanny{padding: 5px;}
+.vic-nanny a img{height: 100%;}
+.vic-nanny a span{margin-left: 10px;font-size: 24px;color: white;}
+
+.choseShow .vic-develop{position: absolute;top: 0;left: 0;margin-top:100px;margin-left: 100px;}
+.choseShow .vic-develop span{font-size: 26px;}
+.choseShow .vic-develop img{margin-top: -10px;}
+
+.choseShow .vic-debugging{position: absolute;top: 0;right: 0;margin-top:100px;margin-right: 100px;}
+.choseShow .vic-debugging span{font-size: 26px;color:white;}
+.choseShow .vic-debugging img{margin-top: -10px;}
+
+.choseShow{display:block;}
+.vic-showRisk{display: block;}
+.vic-showNanny{display: block;}
+.choseHid{display: none;}
+.vic-hidRisk{display:none;}
+
+
+/* 切换  */
+.vic-showRisk  .vic-develop{position: absolute;top: 0;left: 0;margin-top:100px;margin-left: 100px;}
+.vic-showRisk  .vic-develop span{font-size: 26px;}
+.vic-showRisk  .vic-develop img{margin-top:-10px;}
+
+.vic-showRisk  .vic-riskTeam{position: absolute;top: 0;left: 0;right: 0;margin-top:100px;text-align: center;}
+.vic-showRisk  .vic-riskTeam span{font-size: 26px;}
+.vic-showRisk  .vic-riskTeam img{margin-top:-10px;}
+
+.vic-showRisk .vic-debugging{position: absolute;top: 0;right: 0;margin-top:100px;margin-right:0;padding:0 60px 0 30px;width: 350px;}
+.vic-showRisk .vic-debugging span{font-size: 26px;color:white;}
+.vic-showRisk .vic-debugging img{margin-top: -10px;}
+
+
+
+
+.vic-showNanny  .vic-develop{position: absolute;top: 0;left: 0;margin-top:100px;margin-left:30px;}
+.vic-showNanny   .vic-develop span{font-size: 26px;}
+.vic-showNanny   .vic-develop img{margin-top:-10px;}
+
+.vic-showNanny   .vic-riskTeam{position: absolute;top: 0;left: 0;right: 0;margin-top:100px;text-align: center;}
+.vic-showNanny   .vic-riskTeam span{font-size: 26px;}
+.vic-showNanny   .vic-riskTeam img{margin-top:-10px;}
+
+.vic-showNanny  .vic-debugging{position: absolute;top: 0;right: 0;margin-top:100px;margin-right:0;padding:0 60px 0 30px;width: 350px;}
+.vic-showNanny  .vic-debugging span{font-size: 26px;color:white;}
+.vic-showNanny  .vic-debugging img{margin-top: -10px;}
+
+
+
+
+/**************************** 动画  *******************************/
+
+/* a.应用方案动画 */
+.caseAmation{background-image: url(../img/casebg.jpg);height: 947px;width:100%;background-size: 100% 100%;position: relative;}
+.vic-caseAmation{position: absolute;top:50%;left:50%;margin-top:35px;margin-left:-620px;}
+.vic-caseAmation img{animation:caseAma 1000ms;-webkit-animation:caseAma 1000ms;}
+@keyframes caseAma {
+    from { width: 0; }
+    to { width: 100%;animation-delay: .1s, 100ms;}
+}
+
+.vic-smallIncon{width:950px;position: absolute;top: 50%;left: 50%;margin-top:-60px;margin-left:-425px;}
+.vic-smallIncon img{margin-left:18px;transition: all 1s;cursor: pointer;opacity: 0;}
+.vic-smallIncon img:hover{transform: rotateY(180deg);}
+/* b. 首页动画 */
+.vic-indexBanner{height:770px;}
+.vic-honey{width:400px;text-align: center;position: absolute;top: 50%;margin-top:60px;left:50%;margin-left: -585px;}
+.vic-zilian{width: 80%;}
+.vic-centerHoney{width: 220px;height: 220px;text-align: center;position: absolute;z-index:999;top: 50%;left: 50%;margin-top:-95px;margin-left:-110px;}
+
+
+.vic-honeyXian{position: absolute;top: 50%;left: 50%;margin-top:-231px;margin-left:-382px;opacity: 0;}
+
+.vic-honeyBord{position: absolute;top: 50%;left: 50%;margin-top:-248px;margin-left:-476px;opacity: 0;}
+
+.vic-honeyTu{position: absolute;top: 50%;left: 50%;margin-top:-255px;margin-left:-450px;}
+
+
+/* 产品动画 */
+.vic-dtu{position: absolute;z-index:666;top: 50%;left: 50%;margin-top:-240px;margin-left:95px;}
+.vic-pcBorder{position: absolute;top: 50%;left: 50%;margin-top:68px;margin-left:-540px;}
+.vic-pcTubiao{position: absolute;top: 50%;left: 50%;margin-top:118px;margin-left:-580px;}
+.vic-pcText{position: absolute;top: 50%;left: 50%;margin-top:-235px;margin-left:-600px;}
+.vic-pcCont{position: absolute;top: 50%;left: 50%;margin-top:-100px;margin-left:-503px;}
+.vic-pcstart{position: absolute;top: 50%;left: 50%;margin-top:-275px;margin-left:-545px;animation:vicBling 2000ms infinite;-webkit-animation:vicBling 2000ms infinite;}
+.vic-pcloud{position: absolute;z-index:888;top: 50%;left: 50%;margin-top:-145px;margin-left:20px;-webkit-animation:infinite;}
+.vic-pcMorecold{position: absolute;z-index:777;top: 50%;left: 50%;margin-top:-265px;margin-left:-45px;}
+.vic-people{position: absolute;z-index:666;top: 50%;left: 50%;margin-top:-42px;margin-left:-600px;}
+.vic-phone{position: absolute;z-index:666;top: 50%;left: 50%;margin-top:-95px;margin-left:-358px;}
+
+
+/* 动画效果  */
+@keyframes vicBling {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes vicBling {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+.vic-honey .vic-bottom{width: 100% !important;}
